@@ -1,0 +1,80 @@
+
+/* HEADER STYLES */
+
+header {
+    background: lightcoral;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    margin: 0;
+    padding: 5%;
+}
+
+/* SIGNUP INFO SECTION */
+
+.signup-info {
+    border-bottom: 2px solid coral;
+    margin: 5% 5% 0 5%;
+}
+
+h2 {
+    color: lightcoral;
+}
+
+h2,
+p {
+    text-align: center;
+}
+
+/* FORM STYLES */
+
+fieldset {
+    border: none;
+    padding: 0 0 10px 0;
+    margin: 10px 0;
+}
+
+legend {
+    color: lightcoral;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+.input {
+    margin: 10px 0;
+}
+
+input {
+    background: whitesmoke;
+    border: none;
+}
+
+.contact-info input {
+    width: 100%;
+}
+
+textarea {
+    width: 100%;
+    border: none;
+    background: whitesmoke;
+}
+
+label {
+    display: block;
+    margin: 5px 0;
+}
+
+button {
+    width: 100%;
+    height: 50px;
+    background: steelblue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+.contact-info {
+    border-bottom: 2px solid coral;
+}
