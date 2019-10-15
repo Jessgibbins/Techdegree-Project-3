@@ -1,4 +1,14 @@
 
+
+body {
+    margin: 0;
+}
+
+p,
+.input {
+    color: dimgray;
+}
+
 /* HEADER STYLES */
 
 header {
@@ -9,13 +19,14 @@ h1 {
     color: white;
     text-align: center;
     margin: 0;
-    padding: 5%;
+    padding: 4%;
+    font-size: 1.75em;
 }
 
 /* SIGNUP INFO SECTION */
 
 .signup-info {
-    border-bottom: 2px solid coral;
+    border-bottom: 2px double coral;
     margin: 5% 5% 0 5%;
 }
 
@@ -29,6 +40,11 @@ p {
 }
 
 /* FORM STYLES */
+
+form {
+    margin: 5%;
+    padding-bottom: 10%;
+}
 
 fieldset {
     border: none;
@@ -49,6 +65,7 @@ legend {
 input {
     background: whitesmoke;
     border: none;
+    border-radius: 5px;
 }
 
 .contact-info input {
@@ -69,12 +86,43 @@ label {
 button {
     width: 100%;
     height: 50px;
-    background: steelblue;
+    background: skyblue;
     color: white;
     border: none;
     border-radius: 5px;
 }
 
 .contact-info {
-    border-bottom: 2px solid coral;
+    border-bottom: 2px double coral;
+}
+
+/* Media Queries */
+
+@media (min-width: 768px) {
+    h1 {
+        padding: 3%;
+    }
+    legend {
+        padding: 3% 0;
+    }
+    .signup-info {
+        padding: 3% 0;
+        margin: 0 10%;
+    }
+    .contact-info label,
+    .contact-info input,
+    .contact-info div {
+        display: flex;
+        justify-content: space-between;
+    }
+    .contact-info label {
+        flex: 1;
+    }
+    .contact-info input {
+        flex: 3;
+    }
+    form {
+        margin: 0 10%;
+    }
+
 }
