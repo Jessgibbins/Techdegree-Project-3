@@ -99,6 +99,15 @@ select {
     border-radius: 5px;
 }
 
+input,
+select {
+    height: 2em;
+}
+
+input::placeholder {
+    text-align: right;
+}
+
 .contact-info input,
 .contact-info select {
     width: 100%;
