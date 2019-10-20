@@ -99,7 +99,7 @@ select {
     border-radius: 5px;
 }
 
-input,
+.contact-info input,
 select {
     height: 2em;
 }
@@ -127,13 +127,14 @@ textarea {
     width: 100%;
 }
 
-label {
+.contact-info label {
     display: block;
     margin: 5px 0;
 }
 
 .newsletter label {
-    padding: 10px 0;
+    display: inline-block;
+    margin: 5px 0;
 }
 
 button {
